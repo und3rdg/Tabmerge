@@ -45,7 +45,7 @@ function! Tabmerge(...)  " {{{1
 	endif
 
 	if !exists('l:where')
-		let where = 'top'
+		let where = 'right'
 	endif
 
 	if !exists('l:tabnr')
